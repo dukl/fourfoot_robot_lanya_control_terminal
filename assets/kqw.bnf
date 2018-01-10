@@ -1,0 +1,7 @@
+#BNF+IAT 1.0 UTF-8;
+!grammar kqw;
+!slot <move>;
+
+!start <callstart>;
+<callstart>:<move>;
+<move>:前进|后退|左移|右移|站立;
